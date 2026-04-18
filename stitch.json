@@ -1,0 +1,26 @@
+{
+  "projectInfo": {
+    "name": "projects/11893593103202013601",
+    "title": "Coffee Ordering App Prototype",
+    "visibility": "PRIVATE",
+    "projectType": "TEXT_TO_UI_PRO"
+  },
+  "designSystem": {
+    "colorMode": "LIGHT",
+    "font": "MANROPE",
+    "roundness": "ROUND_FOUR",
+    "customColor": "#133256",
+    "headlineFont": "MANROPE",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "background": "#f7f9fb",
+      "error": "#ba1a1a",
+      "primary": "#001d3b",
+      "primary_container": "#133256",
+      "tertiary_fixed_dim": "#f9bd22",
+      "surface": "#f7f9fb",
+      "surface_container_lowest": "#ffffff"
+    }
+  }
+}

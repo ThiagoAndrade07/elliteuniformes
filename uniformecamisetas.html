@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Camisetas | Ellite Uniformes</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary-dim": "#43565f",
+            "secondary-fixed-dim": "#bbd9e9",
+            "primary-fixed": "#d4e3ff",
+            "secondary": "#466370",
+            "on-primary-fixed-variant": "#455d7e",
+            "tertiary": "#4f626b",
+            "primary": "#486081",
+            "outline": "#717c84",
+            "primary-fixed-dim": "#bed6fd",
+            "on-secondary-fixed-variant": "#435f6d",
+            "on-error-container": "#752121",
+            "inverse-primary": "#bed6fd",
+            "error-container": "#fe8983",
+            "primary-container": "#d4e3ff",
+            "tertiary-fixed": "#dff4ff",
+            "on-tertiary-fixed": "#384b53",
+            "surface-variant": "#d9e4ec",
+            "inverse-on-surface": "#9a9da0",
+            "secondary-container": "#c9e7f7",
+            "background": "#f7f9fc",
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary-fixed-variant": "#546770",
+            "surface-bright": "#f7f9fc",
+            "secondary-fixed": "#c9e7f7",
+            "on-secondary-container": "#395663",
+            "surface-container-high": "#e1e9f0",
+            "surface-tint": "#486081",
+            "surface-container": "#e8eff4",
+            "surface-container-low": "#f0f4f8",
+            "on-background": "#29343a",
+            "surface": "#f7f9fc",
+            "surface-container-highest": "#d9e4ec",
+            "on-tertiary": "#f2faff",
+            "on-surface": "#29343a",
+            "on-secondary": "#f3faff",
+            "surface-dim": "#cedce5",
+            "error": "#9f403d",
+            "on-secondary-fixed": "#264350",
+            "primary-dim": "#3c5474",
+            "secondary-dim": "#3a5764",
+            "on-primary": "#f6f7ff",
+            "on-tertiary-container": "#4a5d66",
+            "tertiary-container": "#dff4ff",
+            "on-primary-fixed": "#284060",
+            "on-primary-container": "#3b5373",
+            "on-error": "#fff7f6",
+            "inverse-surface": "#0b0f11",
+            "error-dim": "#4e0309",
+            "outline-variant": "#a8b3bb",
+            "tertiary-fixed-dim": "#d1e6f0",
+            "on-surface-variant": "#566168"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "fontFamily": {
+            "headline": ["Manrope"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+    }
+  </style>
+  <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+
+<body class="bg-surface text-on-surface flex flex-col min-h-screen">
+  <!-- TopAppBar -->
+  <header class="bg-[#001d3b]/95 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm">
+    <div class="flex justify-between items-center px-6 md:px-12 py-2.5 max-w-full mx-auto">
+      <div class="flex items-center gap-3">
+        <button class="md:hidden flex items-center justify-center text-white">
+          <span class="material-symbols-outlined text-[2rem]">menu</span>
+        </button>
+
+        <a href="index.html" class="flex items-center">
+          <img src="Logo.png" alt="Ellite Uniformes" class="h-[50px] md:h-[70px] w-auto object-contain" />
+        </a>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-8">
+        <div class="relative group py-2">
+          <a class="text-slate-200 font-semibold hover:text-[#f9bd22] transition-colors duration-300 flex items-center gap-1 cursor-pointer"
+            href="#">
+            Produtos
+            <span class="material-symbols-outlined text-[1.2rem]">expand_more</span>
+          </a>
+          <div
+            class="absolute left-0 top-full pt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+            <div
+              class="bg-white dark:bg-slate-800 rounded-lg shadow-xl border border-slate-100 dark:border-slate-700 overflow-hidden">
+              <a href="uniformemacacao.html"
+                class="block px-5 py-3 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 hover:text-[#f9bd22] font-medium transition-colors border-b border-slate-100 dark:border-slate-700">Macacões</a>
+              <a href="uniformecalcas.html"
+                class="block px-5 py-3 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 hover:text-[#f9bd22] font-medium transition-colors border-b border-slate-100 dark:border-slate-700">Calças</a>
+              <a href="uniformecamisetas.html"
+                class="block px-5 py-3 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 hover:text-[#f9bd22] font-medium transition-colors border-b border-slate-100 dark:border-slate-700">Camisetas</a>
+              <a href="uniformeinverno.html"
+                class="block px-5 py-3 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 hover:text-[#f9bd22] font-medium transition-colors">Inverno</a>
+            </div>
+          </div>
+        </div>
+
+        <a class="text-slate-200 hover:text-[#f9bd22] transition-colors duration-300" href="sobre.html">Sobre Nós</a>
+        <a class="text-slate-200 hover:text-[#f9bd22] transition-colors duration-300"
+          href="index.html#diferenciais">Diferenciais</a>
+        <a class="text-slate-200 hover:text-[#f9bd22] transition-colors duration-300"
+          href="index.html#contato">Contato</a>
+      </nav>
+
+      <a href="index.html#contato"
+        class="hidden md:inline-block bg-tertiary-fixed-dim text-on-tertiary-fixed font-headline font-bold py-2.5 px-6 rounded-md hover:opacity-90 active:scale-95 transition-all text-center">
+        Solicitar Orçamento
+      </a>
+    </div>
+  </header>
+  <main class="flex-grow pt-32 pb-24 px-6 max-w-7xl mx-auto w-full">
+    <!-- Category Header -->
+    <div class="text-center mb-16">
+      <span
+        class="text-on-primary-fixed-variant uppercase tracking-[0.2em] font-medium text-[0.75rem] mb-4 block">Catálogo
+        Industrial</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-on-primary-fixed tracking-tight">Camisetas</h1>
+      <div class="h-1 w-12 bg-primary mx-auto mt-6"></div>
+    </div>
+    <!-- Product Grid -->
+    <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+    </div>
+    <!-- Technical Specification Banner -->
+    <section class="mt-24 bg-surface-container p-8 md:p-12">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="max-w-xl">
+          <h3 class="text-xl font-bold text-[#486081] mb-2 uppercase tracking-wide">Padrão de Qualidade Ellite</h3>
+          <p class="text-on-surface-variant">Nossa linha de camisas é desenvolvida para oferecer conforto, boa
+            apresentação e resistência no uso diário,
+            unindo praticidade e qualidade para diferentes ambientes de trabalho.</p>
+        </div>
+        <div class="flex gap-6">
+          <div class="text-center">
+            <span class="material-symbols-outlined text-3xl text-primary" data-icon="shield">shield</span>
+            <p class="text-[0.65rem] font-bold uppercase tracking-tighter mt-1">Proteção</p>
+          </div>
+          <div class="text-center">
+            <span class="material-symbols-outlined text-3xl text-primary"
+              data-icon="precision_manufacturing">precision_manufacturing</span>
+            <p class="text-[0.65rem] font-bold uppercase tracking-tighter mt-1">Precisão</p>
+          </div>
+          <div class="text-center">
+            <span class="material-symbols-outlined text-3xl text-primary" data-icon="high_quality">high_quality</span>
+            <p class="text-[0.65rem] font-bold uppercase tracking-tighter mt-1">Qualidade</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#001d3b] dark:bg-black w-full py-12 px-6 md:px-12 mt-auto">
+    <div class="flex flex-col md:flex-row justify-between items-start gap-8 max-w-7xl mx-auto">
+      <div class="space-y-4">
+        <a href="index.html"
+          class="text-lg font-bold text-white uppercase font-headline hover:text-slate-300 transition-colors">Ellite
+          Uniformes</a>
+        <p class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm leading-relaxed max-w-xs">
+          Líder em uniformização corporativa de alta performance para empresas que buscam excelência.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-12">
+        <div class="flex flex-col gap-4">
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider">Links</h4>
+          <nav class="flex flex-col gap-2">
+            <a class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm hover:text-white transition-all underline underline-offset-4"
+              href="uniformemacacao.html">Produtos</a>
+            <a class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm hover:text-white transition-all underline underline-offset-4"
+              href="sobre.html">Sobre Nós</a>
+            <a class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm hover:text-white transition-all underline underline-offset-4"
+              href="index.html#diferenciais">Diferenciais</a>
+          </nav>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider">Legal</h4>
+          <nav class="flex flex-col gap-2">
+            <a class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm hover:text-white transition-all underline underline-offset-4"
+              href="index.html#contato">Contato</a>
+            <a class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm hover:text-white transition-all underline underline-offset-4"
+              href="privacidade.html">Privacidade</a>
+          </nav>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider">Social</h4>
+          <div class="flex gap-4">
+            <span class="material-symbols-outlined text-slate-300 cursor-pointer hover:text-[#f9bd22]">share</span>
+            <span class="material-symbols-outlined text-slate-300 cursor-pointer hover:text-[#f9bd22]">camera</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10">
+      <p class="text-slate-300 dark:text-slate-500 font-['Inter'] text-sm leading-relaxed text-center md:text-left">
+        © 2026 Ellite Uniformes Profissionais. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+  <script src="produtos.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const grid = document.getElementById("product-grid");
+
+      produtosCamisetas.forEach(produto => {
+        const productHtml = `
+            <div class="group bg-surface-container-lowest overflow-hidden flex flex-col shadow-sm transition-all hover:shadow-md border border-outline-variant/10">
+                <div class="relative aspect-[4/5] overflow-hidden bg-surface-container">
+                    <img alt="${produto.imageAlt}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="${produto.imageSrc}"/>
+                    ` + (produto.badge ? `
+                    <div class="absolute top-4 right-4">
+                        <span class="bg-primary text-on-primary px-3 py-1 text-[0.7rem] font-bold tracking-widest uppercase">${produto.badge}</span>
+                    </div>` : '') + `
+                </div>
+                <div class="p-8 flex flex-col flex-grow">
+                    <h2 class="text-2xl font-bold text-on-primary-fixed mb-4 leading-tight">${produto.title}</h2>
+                    <p class="text-on-surface-variant leading-relaxed mb-8 flex-grow">
+                        ${produto.description}
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        ${produto.tags.map(tag => `<span class="bg-tertiary-container text-on-tertiary-container px-3 py-1 text-xs font-semibold uppercase tracking-wider">${tag}</span>`).join('')}
+                    </div>
+                    <a class="w-full block text-center py-4 bg-gradient-to-br from-primary to-on-primary-container text-on-primary font-bold uppercase tracking-widest text-sm rounded-lg transition-transform active:scale-95" href="index.html#contato">
+                        solicite seu orçamento
+                    </a>
+                </div>
+            </div>
+        `;
+        grid.innerHTML += productHtml;
+      });
+    });
+  </script>
+</body>
+
+</html>
