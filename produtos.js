@@ -150,3 +150,42 @@ const produtosFabricados = [
     { id: 2, imageSrc: "Img/c2.png", alt: "" },
     { id: 3, imageSrc: "Img/c3.png", alt: "" }
 ];
+
+const produtosJaquetas = [
+    {
+        id: 1,
+        title: "Jaqueta Modelo 1",
+        description: "Estilo e proteção para o dia a dia. Ideal para uniformização corporativa e industrial com ótimo conforto térmico.",
+        imageSrc: "Img/Jaqueta1.jpeg",
+        imageAlt: "Jaqueta 1",
+        badge: "Novo",
+        tags: ["Jaqueta", "Conforto"]
+    },
+    {
+        id: 2,
+        title: "Jaqueta Modelo 2",
+        description: "Resistência e durabilidade para operações em ambientes frios. Acabamento pensado para a rotina profissional.",
+        imageSrc: "Img/Jaqueta2.jpeg",
+        imageAlt: "Jaqueta 2",
+        badge: "Destaque",
+        tags: ["Jaqueta", "Inverno"]
+    },
+    {
+        id: 3,
+        title: "Jaqueta Modelo 3",
+        description: "Design moderno garantindo mobilidade e aquecimento. Perfeita para funções externas e operacionais.",
+        imageSrc: "Img/Jaqueta3.jpeg",
+        imageAlt: "Jaqueta 3",
+        badge: "Premium",
+        tags: ["Jaqueta", "Resistente"]
+    },
+    {
+        id: 4,
+        title: "Jaqueta Modelo 4",
+        description: "Proteção completa com visual limpo e elegante. Tecido resistente ao vento e de longa duração.",
+        imageSrc: "Img/Jaqueta4.jpeg",
+        imageAlt: "Jaqueta 4",
+        badge: "Versátil",
+        tags: ["Jaqueta", "Qualidade"]
+    }
+];
